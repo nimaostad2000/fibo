@@ -1,8 +1,13 @@
-def fib(number: int):
-    if number <=1:
-        return number
-    else:
-        return fib(number-1)+fib(number-2)
+def factorial(number: int):
+    if number == 1:
+        return 1
+    return number * factorial(number - 1)
 number = 6
-result = fib(number)
-print(f"fib({number}) = {result}")
+print(factorial(number))
+#git init
+# git status
+# git add --all
+# git commit -m "meaningfull message"
+# git config --global user.email "emailo benevis"
+# git config --global user.name "user name o benevis"
+#git -- list              hame chizayi ke hasto miyare
